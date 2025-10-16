@@ -7,6 +7,8 @@ import torch
 import torchaudio
 
 from rnv.ssl.WavLM.WavLM import WavLMConfig, WavLMModel
+from transformers import AutoModel
+from transformers import AutoFeatureExtractor
 
 
 class WavLM:
@@ -47,3 +49,42 @@ class WavLM:
         embeddings = self.model.extract_features(audio, output_layer=output_layer, ret_layer_results=False)[0]
         embeddings = embeddings.squeeze(0)
         return embeddings  # [frame_len, 1024]
+
+class mHuBERT147:
+    def __init__(self, device=None, model_name="utter-project/mHuBERT-147", layer=6):
+        """
+        Load the mHuBERT-147 model from Hugging Face.
+        """
+        if device is None:
+            self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        else:
+            self.device = torch.device(device)
+
+        self.feature_extractor = AutoFeatureExtractor.from_pretrained(model_name)
+        self.model = AutoModel.from_pretrained(model_name).to(self.device)
+        self.model.eval()
+
+        self.model.sample_rate = 16000  # mHuBERT uses 16kHz typically
+        self.output_layer = layer
+
+        num_parameters = sum(p.numel() for p in self.model.parameters())
+        print(f"mHuBERT-147 loaded with {num_parameters:,d} parameters.")
+
+    @torch.no_grad()
+    def extract_framewise_features(self, wav_path, output_layer=None):
+        audio, orig_sr = torchaudio.load(wav_path)
+        audio = audio.to(self.device)
+        if orig_sr != self.model.sample_rate:
+            audio = torchaudio.functional.resample(audio, orig_freq=orig_sr, new_freq=self.model.sample_rate)
+
+        inputs = self.feature_extractor(
+            audio.squeeze(0),
+            sampling_rate=self.model.sample_rate,
+            return_tensors="pt"
+        ).to(self.device)
+        outputs = self.model(**inputs, output_hidden_states=True)
+        layer = output_layer if output_layer is not None else self.output_layer
+        embeddings = outputs.hidden_states[layer].squeeze(0)
+        return embeddings  # [frames, dim]
+
+

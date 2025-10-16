@@ -9,12 +9,15 @@ from pathlib import Path
 import torch
 
 from rnv.ssl.models import WavLM
+from rnv.ssl.models import mHuBERT147
 from rnv.utils import find_wav_paths
 
 
 def load_model(model_name):
     if model_name == "wavlm":
         model = WavLM()
+    elif model_name == "mHuBERT147":
+        model = mHuBERT147()
     else:
         raise NameError("Invalid model name")
     return model
