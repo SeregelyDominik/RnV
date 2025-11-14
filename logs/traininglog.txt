@@ -1,0 +1,374 @@
+python .\hifigan\train.py --audio_root_path C:\testingstuff\mhuberttest\full_testing_environment\preprocessed_clips --feature_root_path C:\testingstuff\mhuberttest\full_testing_environment\feats-mhubert147 --input_training_file C:\testingstuff\mhuberttest\full_testing_environment\training_hun2.txt --input_validation_file C:\testingstuff\mhuberttest\full_testing_environment\validation_hun2.txt --config .\hifigan\config_v1_wavlm.json --checkpoint_path D:\testingstuff\checkpoints\c --training_epochs 30 --stdout_interval 10000 --checkpoint_interval 10000 --summary_interval 10000 --validation_interval 10000 --fp16 True
+
+Epoch: 1
+Steps : 0, Gen Loss Total : 154.464, Mel-Spec. Error : 3.248, sec/batch : 4.893, peak mem:  2.50GB
+validation run complete at 0 steps. validation mel spec error: 3.0038
+
+Steps : 10,000, Gen Loss Total : 35.521, Mel-Spec. Error : 0.633, sec/batch : 0.284, peak mem:  3.25GBec. Error : 3.248]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00010000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00010000.pt
+Complete.
+validation run complete at 10,000 steps. validation mel spec error: 0.7482
+Time taken for epoch 1 is 5206 sec
+
+Epoch: 2
+Steps : 20,000, Gen Loss Total : 37.161, Mel-Spec. Error : 0.630, sec/batch : 0.283, peak mem:  3.25GB4:55]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00020000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00020000.pt
+Complete.
+validation run complete at 20,000 steps. validation mel spec error: 0.7267
+Time taken for epoch 2 is 4149 sec
+
+Epoch: 3
+Steps : 30,000, Gen Loss Total : 35.017, Mel-Spec. Error : 0.580, sec/batch : 0.281, peak mem:  3.25GB2:24]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00030000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00030000.pt
+Complete.
+validation run complete at 30,000 steps. validation mel spec error: 0.7254
+Time taken for epoch 3 is 4149 sec
+
+Epoch: 4
+Steps : 40,000, Gen Loss Total : 39.620, Mel-Spec. Error : 0.659, sec/batch : 0.283, peak mem:  3.25GB9:51]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00040000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00040000.pt
+Complete.
+validation run complete at 40,000 steps. validation mel spec error: 0.7090
+Time taken for epoch 4 is 4157 sec
+
+Epoch: 5
+Steps : 50,000, Gen Loss Total : 32.203, Mel-Spec. Error : 0.528, sec/batch : 0.283, peak mem:  3.25GB7:17]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00050000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00050000.pt
+Complete.
+validation run complete at 50,000 steps. validation mel spec error: 0.7087
+Time taken for epoch 5 is 4145 sec
+
+Epoch: 6
+Steps : 60,000, Gen Loss Total : 32.176, Mel-Spec. Error : 0.530, sec/batch : 0.283, peak mem:  3.25GB4:43]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00060000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00060000.pt
+Complete.
+validation run complete at 60,000 steps. validation mel spec error: 0.7045
+Time taken for epoch 6 is 4144 sec
+
+--
+
+Epoch: 13
+Steps : 170,000, Gen Loss Total : 36.982, Mel-Spec. Error : 0.537, sec/batch : 0.301, peak mem:  3.59GB:05]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00170000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00170000.pt
+Complete.
+validation run complete at 170,000 steps. validation mel spec error: 0.6846
+Time taken for epoch 13 is 4535 sec
+
+Epoch: 14
+Steps : 180,000, Gen Loss Total : 35.949, Mel-Spec. Error : 0.551, sec/batch : 0.304, peak mem:  3.59GB:05]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00180000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00180000.pt
+Complete.
+validation run complete at 180,000 steps. validation mel spec error: 0.6715
+Time taken for epoch 14 is 4397 sec
+
+Epoch: 15
+Steps : 190,000, Gen Loss Total : 31.085, Mel-Spec. Error : 0.465, sec/batch : 0.302, peak mem:  3.59GB:07]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00190000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00190000.pt
+Complete.
+validation run complete at 190,000 steps. validation mel spec error: 0.6746
+Time taken for epoch 15 is 4393 sec
+
+Epoch: 16
+Steps : 200,000, Gen Loss Total : 30.770, Mel-Spec. Error : 0.458, sec/batch : 0.304, peak mem:  3.59GB:12]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00200000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00200000.pt
+Complete.
+validation run complete at 200,000 steps. validation mel spec error: 0.6716
+Time taken for epoch 16 is 4398 sec
+
+Epoch: 17
+Steps : 210,000, Gen Loss Total : 37.847, Mel-Spec. Error : 0.552, sec/batch : 0.302, peak mem:  3.59GB:11]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00210000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00210000.pt
+Complete.
+validation run complete at 210,000 steps. validation mel spec error: 0.6689
+Time taken for epoch 17 is 4394 sec
+
+Epoch: 18
+Steps : 220,000, Gen Loss Total : 39.224, Mel-Spec. Error : 0.573, sec/batch : 0.302, peak mem:  3.59GB:13]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00220000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00220000.pt
+Complete.
+validation run complete at 220,000 steps. validation mel spec error: 0.6769
+Time taken for epoch 18 is 4388 sec
+
+Epoch: 19
+Steps : 230,000, Gen Loss Total : 34.023, Mel-Spec. Error : 0.499, sec/batch : 0.303, peak mem:  3.59GB9]]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00230000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00230000.pt
+Complete.
+validation run complete at 230,000 steps. validation mel spec error: 0.6705
+Steps : 240,000, Gen Loss Total : 35.801, Mel-Spec. Error : 0.494, sec/batch : 0.302, peak mem:  3.59GBc. Error : 0.499]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00240000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00240000.pt
+Complete.
+validation run complete at 240,000 steps. validation mel spec error: 0.6717
+Time taken for epoch 19 is 5297 sec
+
+Epoch: 20
+Steps : 250,000, Gen Loss Total : 39.871, Mel-Spec. Error : 0.570, sec/batch : 0.305, peak mem:  3.59GB:08]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00250000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00250000.pt
+Complete.
+validation run complete at 250,000 steps. validation mel spec error: 0.6824
+Time taken for epoch 20 is 4416 sec
+
+Epoch: 21
+Steps : 260,000, Gen Loss Total : 38.839, Mel-Spec. Error : 0.508, sec/batch : 0.304, peak mem:  3.59GB:12]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00260000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00260000.pt
+Complete.
+validation run complete at 260,000 steps. validation mel spec error: 0.6868
+Time taken for epoch 21 is 4414 sec
+
+Epoch: 22
+Steps : 270,000, Gen Loss Total : 40.157, Mel-Spec. Error : 0.567, sec/batch : 0.305, peak mem:  3.59GB0:16]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00270000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00270000.pt
+Complete.
+validation run complete at 270,000 steps. validation mel spec error: 0.6779
+Time taken for epoch 22 is 4437 sec
+
+Epoch: 23
+Steps : 280,000, Gen Loss Total : 36.330, Mel-Spec. Error : 0.528, sec/batch : 0.303, peak mem:  3.59GB8:39]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00280000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00280000.pt
+Complete.
+validation run complete at 280,000 steps. validation mel spec error: 0.6675
+Time taken for epoch 23 is 4430 sec
+
+Epoch: 24
+Steps : 290,000, Gen Loss Total : 34.475, Mel-Spec. Error : 0.518, sec/batch : 0.304, peak mem:  3.59GB6:24]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00290000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00290000.pt
+Complete.
+validation run complete at 290,000 steps. validation mel spec error: 0.6564
+Time taken for epoch 24 is 4416 sec
+
+Epoch: 25
+Steps : 300,000, Gen Loss Total : 38.562, Mel-Spec. Error : 0.603, sec/batch : 0.303, peak mem:  3.59GB23]]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00300000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00300000.pt
+Complete.
+validation run complete at 300,000 steps. validation mel spec error: 0.6779
+Steps : 310,000, Gen Loss Total : 32.008, Mel-Spec. Error : 0.480, sec/batch : 0.304, peak mem:  3.58GBc. Error : 0.603]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00310000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00310000.pt
+Complete.
+validation run complete at 310,000 steps. validation mel spec error: 0.6658
+Time taken for epoch 25 is 5313 sec
+
+Epoch: 26
+Steps : 320,000, Gen Loss Total : 37.406, Mel-Spec. Error : 0.549, sec/batch : 0.303, peak mem:  3.59GB2:05]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00320000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00320000.pt
+Complete.
+validation run complete at 320,000 steps. validation mel spec error: 0.6574
+Time taken for epoch 26 is 4403 sec
+
+Epoch: 27
+Steps : 330,000, Gen Loss Total : 35.593, Mel-Spec. Error : 0.470, sec/batch : 0.304, peak mem:  3.59GB0:08]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00330000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00330000.pt
+Complete.
+validation run complete at 330,000 steps. validation mel spec error: 0.6679
+Time taken for epoch 27 is 4403 sec
+
+Epoch: 28
+Steps : 340,000, Gen Loss Total : 40.769, Mel-Spec. Error : 0.439, sec/batch : 0.308, peak mem:  3.58GB8:15]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00340000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00340000.pt
+Complete.
+validation run complete at 340,000 steps. validation mel spec error: 0.6701
+Time taken for epoch 28 is 4409 sec
+
+Epoch: 29
+Steps : 350,000, Gen Loss Total : 41.887, Mel-Spec. Error : 0.593, sec/batch : 0.304, peak mem:  3.59GB6:21]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00350000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00350000.pt
+Complete.
+validation run complete at 350,000 steps. validation mel spec error: 0.6624
+Time taken for epoch 29 is 4413 sec
+
+Epoch: 30
+Steps : 360,000, Gen Loss Total : 33.100, Mel-Spec. Error : 0.477, sec/batch : 0.304, peak mem:  3.59GB4:25]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00360000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00360000.pt
+Complete.
+validation run complete at 360,000 steps. validation mel spec error: 0.6513
+Time taken for epoch 30 is 4402 sec
+
+//
+
+Epoch 30
+Steps : 370,000, Gen Loss Total : 33.902, Mel-Spec. Error : 0.497, sec/batch : 0.305, peak mem:  3.59GB:04]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00370000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00370000.pt
+Complete.
+validation run complete at 370,000 steps. validation mel spec error: 0.6654
+Time taken for epoch 30 is 4536 sec
+
+Epoch: 31
+Steps : 380,000, Gen Loss Total : 37.563, Mel-Spec. Error : 0.512, sec/batch : 0.302, peak mem:  3.59GB:06]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00380000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00380000.pt
+Complete.
+validation run complete at 380,000 steps. validation mel spec error: 0.6588
+Time taken for epoch 31 is 4403 sec
+
+Epoch: 32
+Steps : 390,000, Gen Loss Total : 32.098, Mel-Spec. Error : 0.459, sec/batch : 0.302, peak mem:  3.59GB:09]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00390000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00390000.pt
+Complete.
+validation run complete at 390,000 steps. validation mel spec error: 0.6550
+Time taken for epoch 32 is 4404 sec
+
+Epoch: 33
+Steps : 400,000, Gen Loss Total : 35.347, Mel-Spec. Error : 0.455, sec/batch : 0.303, peak mem:  3.59GB:12]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00400000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00400000.pt
+Complete.
+validation run complete at 400,000 steps. validation mel spec error: 0.6608
+Time taken for epoch 33 is 4405 sec
+
+Epoch: 34
+Steps : 410,000, Gen Loss Total : 39.270, Mel-Spec. Error : 0.540, sec/batch : 0.305, peak mem:  3.59GB:22]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00410000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00410000.pt
+Complete.
+validation run complete at 410,000 steps. validation mel spec error: 0.6630
+Time taken for epoch 34 is 4402 sec
+
+Epoch: 35
+Steps : 420,000, Gen Loss Total : 39.506, Mel-Spec. Error : 0.561, sec/batch : 0.302, peak mem:  3.59GB:20]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00420000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00420000.pt
+Complete.
+validation run complete at 420,000 steps. validation mel spec error: 0.6560
+Time taken for epoch 35 is 4399 sec
+
+Epoch: 36
+Steps : 430,000, Gen Loss Total : 33.880, Mel-Spec. Error : 0.486, sec/batch : 0.303, peak mem:  3.59GB0]]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00430000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00430000.pt
+Complete.
+validation run complete at 430,000 steps. validation mel spec error: 0.6712
+Steps : 440,000, Gen Loss Total : 36.106, Mel-Spec. Error : 0.474, sec/batch : 0.305, peak mem:  3.59GBc. Error : 0.486]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00440000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00440000.pt
+Complete.
+validation run complete at 440,000 steps. validation mel spec error: 0.6587
+Time taken for epoch 36 is 5302 sec
+
+Epoch: 36
+Steps : 450,000, Gen Loss Total : 35.684, Mel-Spec. Error : 0.505, sec/batch : 0.305, peak mem:  3.59GB:11]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00450000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00450000.pt
+Complete.
+validation run complete at 450,000 steps. validation mel spec error: 0.6617
+Time taken for epoch 36 is 4590 sec
+
+Epoch: 37
+Steps : 460,000, Gen Loss Total : 38.541, Mel-Spec. Error : 0.530, sec/batch : 0.305, peak mem:  3.59GB:09]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00460000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00460000.pt
+Complete.
+validation run complete at 460,000 steps. validation mel spec error: 0.6505
+Time taken for epoch 37 is 4412 sec
+
+Epoch: 38
+Steps : 470,000, Gen Loss Total : 31.583, Mel-Spec. Error : 0.448, sec/batch : 0.317, peak mem:  3.59GB:38]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00470000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00470000.pt
+Complete.
+validation run complete at 470,000 steps. validation mel spec error: 0.6503
+Time taken for epoch 38 is 4492 sec
+
+Epoch: 39
+Steps : 480,000, Gen Loss Total : 39.404, Mel-Spec. Error : 0.455, sec/batch : 0.307, peak mem:  3.59GB:19]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00480000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00480000.pt
+Complete.
+validation run complete at 480,000 steps. validation mel spec error: 0.6568
+Time taken for epoch 39 is 4414 sec
+
+Epoch: 40
+Steps : 490,000, Gen Loss Total : 43.878, Mel-Spec. Error : 0.547, sec/batch : 0.305, peak mem:  3.59GB:21]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00490000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00490000.pt
+Complete.
+validation run complete at 490,000 steps. validation mel spec error: 0.6602
+Time taken for epoch 40 is 4411 sec
+
+Epoch: 41
+Steps : 500,000, Gen Loss Total : 39.405, Mel-Spec. Error : 0.559, sec/batch : 0.305, peak mem:  3.59GB:29]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00500000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00500000.pt
+Complete.
+validation run complete at 500,000 steps. validation mel spec error: 0.6510
+Time taken for epoch 41 is 4412 sec
+
+Epoch: 42
+Steps : 510,000, Gen Loss Total : 32.546, Mel-Spec. Error : 0.483, sec/batch : 0.304, peak mem:  3.59GB3]]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00510000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00510000.pt
+Complete.
+validation run complete at 510,000 steps. validation mel spec error: 0.6641
+Steps : 520,000, Gen Loss Total : 41.192, Mel-Spec. Error : 0.476, sec/batch : 0.306, peak mem:  3.59GBc. Error : 0.483]
+Saving checkpoint to D:\testingstuff\checkpoints\c/g_00520000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\c/do_00520000.pt
+Complete.
+validation run complete at 520,000 steps. validation mel spec error: 0.6609
+Time taken for epoch 42 is 5319 sec
