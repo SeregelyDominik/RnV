@@ -75,6 +75,7 @@ class RhythmConverterGlobal:
         segmenter_checkpoint_path,
         device=None,
     ):
+
         if device is None:
             self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         else:

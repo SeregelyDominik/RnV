@@ -4,16 +4,16 @@ import torch
 import librosa
 from tqdm import tqdm
 import gc
+import shutil
 
 import argparse
 
 from rnv.converter import Converter
-from rnv.ssl.models import WavLM
+from rnv.ssl.models import mHuBERT147
 from rnv.utils import get_vocoder_checkpoint_path
 
 def convert(
     src_speaker_id: str,
-    tgt_speaker_id: str,
     model_class_str: str,
     model_type_str: str,
     src_feats_dir: Path,
@@ -34,11 +34,11 @@ def convert(
     converter = Converter(vocoder_checkpoint_path, rhythm_converter=model_class_str, rhythm_model_type=model_type_str) # or "fine" for fine-grained rhythm conversion
 
     if model_class_str == "urhythmic" :
-        source_rhythm_model = f"{src_speaker_id}/{src_speaker_id}_{model_type_str}_{model_class_str}_model.pth"
-        target_rhythm_model = f"{tgt_speaker_id}/{tgt_speaker_id}_{model_type_str}_{model_class_str}_model.pth"
+        source_rhythm_model = fr"D:\testingstuff\bme\HungarianDysartriaDatabase\lsa.tmit.bme.hu\samples\models\{src_speaker_id}\{src_speaker_id}_{model_type_str}_{model_class_str}_model.pth"
+        target_rhythm_model = fr"D:\testingstuff\bme\HungarianDysartriaDatabase\lsa.tmit.bme.hu\samples\models\szindbad\0_{model_type_str}_{model_class_str}_model.pth"
     else :
-        source_rhythm_model = f"{src_speaker_id}/{src_speaker_id}_{model_class_str}_models.pth"
-        target_rhythm_model = f"{tgt_speaker_id}/{tgt_speaker_id}_{model_class_str}_models.pth"
+        source_rhythm_model = fr"D:\testingstuff\bme\HungarianDysartriaDatabase\lsa.tmit.bme.hu\samples\models\{src_speaker_id}\{src_speaker_id}_{model_class_str}_models.pth"
+        target_rhythm_model = fr"D:\testingstuff\bme\HungarianDysartriaDatabase\lsa.tmit.bme.hu\samples\models\szindbad\0_{model_class_str}_models.pth"
     for feat_path in tqdm(list(src_feats_dir.rglob("*.pt"))):
         try:
             source_feats = torch.load(feat_path, map_location="cpu")
@@ -97,12 +97,6 @@ if __name__ == "__main__":
         type=str,
     )
     parser.add_argument(
-        "tgt_speaker_id",
-        metavar="tgt-speaker-id",
-        help="Target Speaker ID.",
-        type=str,
-    )
-    parser.add_argument(
         "model_class",
         metavar="model-class",
         help="rhythm model class (urhythmic, syllable).",
@@ -149,9 +143,22 @@ if __name__ == "__main__":
     parser.add_argument("out_dir", metavar="out-dir", type=Path, help="path to the output directory.")
     parser.add_argument("src_wav_dir", metavar="src-wav-dir", type=Path, help="path to the source wav directory.")
     args = parser.parse_args()
+
+    print(args.knnvc+" "+args.model_class+" "+args.model_type+"\n")
+
+    TARGET_DIR = Path(r"testmhub\wavs")
+    if TARGET_DIR.exists():
+        for item in TARGET_DIR.iterdir():
+            if item.is_file():
+                item.unlink()
+            elif item.is_dir():
+                shutil.rmtree(item)
+    else:
+        TARGET_DIR.mkdir(parents=True)
+
+
     convert(
         args.src_speaker_id,
-        args.tgt_speaker_id,
         args.model_class,
         args.model_type,
         args.src_feats_dir,
@@ -160,5 +167,5 @@ if __name__ == "__main__":
         args.segmenter_checkpoint_path,
         args.knnvc,
         args.out_dir,
-        args.src_wav_dir,
+        args.src_wav_dir
     )

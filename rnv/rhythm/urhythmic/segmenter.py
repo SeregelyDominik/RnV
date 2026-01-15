@@ -75,7 +75,9 @@ class Segmenter:
             feats = []
             batch_filepaths = filepaths[i : i + batch_size]
             for filepath in batch_filepaths:
-                feats.append(torch.load(filepath, weights_only=False))
+                if ".pt" in str(filepath):
+                    filepath = os.path.join(feats_dir, filepath)
+                    feats.append(torch.load(filepath, weights_only=False))
             feats = torch.concat(feats, dim=0).cpu().numpy()
             self.kmeans.partial_fit(feats)
 

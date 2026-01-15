@@ -16,7 +16,7 @@ vocoder_checkpoint_path = get_vocoder_checkpoint_path(CHECKPOINTS_DIR)
 converter = Converter(vocoder_checkpoint_path, rhythm_converter="urhythmic", rhythm_model_type="global") # or "fine" for fine-grained rhythm conversion
 
 feature_extractor = mHuBERT147()
-segmenter_path = Path("checkpoints/mhub_segmenter.pth")
+segmenter_path = Path("checkpoints/mhub_segmenter2.pth")
 
 # Load wav and extract features
 source_wav_path = "lacidiz.wav"

@@ -14,26 +14,27 @@ import torch
 def find_wav_paths(root_dir: str | os.PathLike[Any]):
     wav_paths = []
     for file_path in Path(root_dir).rglob("*.*"):
-        if file_path.suffix.lower() in (".flac", ".wav"):
+        if file_path.suffix.lower() in (".flac", ".wav", ".mp3"):
             wav_paths.append(file_path)
     return wav_paths
 
 
 def load_target_style_feats(feats_base_path, max_num_files=1000):
-    feats_files = list(Path(feats_base_path).rglob("*.pt"))[:max_num_files]
     feats = []
-    for filepath in feats_files:
-        feats.append(torch.load(filepath, weights_only=False))
+    for filepath in os.listdir(feats_base_path)[:max_num_files]:
+        if ".pt" in filepath:
+            filepath = os.path.join(feats_base_path, filepath)
+            feats.append(torch.load(filepath, weights_only=False))
     feats = torch.concat(feats, dim=0).cpu()
     return feats
 
 
 def get_vocoder_checkpoint_path(checkpoints_dir):
     os.makedirs(checkpoints_dir, exist_ok=True)  # Ensure directory exists
-    checkpoint_path = os.path.join(checkpoints_dir, "g_current.pt")
-    #checkpoint_path = os.path.join(checkpoints_dir, "prematch_g_02500000.pt")
-    # url = "https://github.com/bshall/knn-vc/releases/download/v0.1/prematch_g_02500000.pt"
-    #
+
+    checkpoint_path = os.path.join(checkpoints_dir, "g_mhubert.pt")
+    #url = "https://github.com/bshall/knn-vc/releases/download/v0.1/prematch_g_02500000.pt"
+
     # if not os.path.exists(checkpoint_path):
     #     print(f"Downloading checkpoint to {checkpoint_path}...")
     #     response = requests.get(url, stream=True)
@@ -44,5 +45,5 @@ def get_vocoder_checkpoint_path(checkpoints_dir):
     #         print("Download complete.")
     #     else:
     #         raise Exception(f"Failed to download checkpoint: {response.status_code}")
-    #
-    # return checkpoint_path
+
+    return checkpoint_path

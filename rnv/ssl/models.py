@@ -7,8 +7,6 @@ import torch
 import torchaudio
 
 from rnv.ssl.WavLM.WavLM import WavLMConfig, WavLMModel
-from transformers import AutoModel
-from transformers import AutoFeatureExtractor
 
 
 class WavLM:
@@ -50,6 +48,10 @@ class WavLM:
         embeddings = embeddings.squeeze(0)
         return embeddings  # [frame_len, 1024]
 
+
+from transformers import AutoModel, AutoProcessor
+from transformers import AutoFeatureExtractor
+
 class mHuBERT147:
     def __init__(self, device=None, model_name="utter-project/mHuBERT-147", layer=6):
         """
@@ -86,5 +88,4 @@ class mHuBERT147:
         layer = output_layer if output_layer is not None else self.output_layer
         embeddings = outputs.hidden_states[layer].squeeze(0)
         return embeddings  # [frames, dim]
-
 

@@ -1,0 +1,283 @@
+file_path,class_label,expected_text,transcription,wer,cer,word_count,char_count
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_computer_livingroom_AOL.wav,15,kapcsold ki a számítógépet a nagyszobába,,1.0,1.0,6,35
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_computer_livingroom_LAO.wav,15,nagyszobába kapcsold ki a számítógépet,föeö,1.0,0.9736842105263158,5,34
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_computer_room_AOL.wav,15,kapcsold ki a számítógépet a szobába,,1.0,1.0,6,31
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_computer_room_LAO.wav,15,a szobába kapcsold ki a számítógépet,,1.0,1.0,6,31
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_computer_smallroom_AOL.wav,15,kapcsold ki a számítógépet a kisszobába,kaf al,1.0,0.8974358974358975,6,34
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_computer_smallroom_LAO.wav,15,a kisszobába kapcsold ki a számítógépet,,1.0,1.0,6,34
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_curtain_bathroom_ALO.wav,15,húzd szét a fürdőszobába a függönyt,u,1.0,1.0,6,30
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_curtain_corridor_AOL.wav,15,húzd szét a függönyt a folyosón,,1.0,1.0,6,26
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_curtain_kitchen_ALO.wav,15,húzd szét a konyhába a függönyt,u konhdoget,1.0,0.7741935483870968,6,26
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_curtain_kitchen_LAO.wav,15,a konyhában széthúz húzd szét a függönyt,apoh gege,1.0,0.875,7,34
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_curtain_livingroom_AOL.wav,15,húzd szét a függönyt a nagyszobába,hu ödae,1.0,0.8823529411764706,6,29
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_curtain_livingroom_LAO.wav,15,nagyszobába húzd szét a függönyt,las tkebt,1.0,0.84375,5,28
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_curtain_room_AOL.wav,15,húzd szét a függönyt a szobába,,1.0,1.0,6,25
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_curtain_room_LAO.wav,15,szobába húzd szét a függönyt,,1.0,1.0,5,24
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_curtain_smallroom_AOL.wav,15,húzd szét a függönyt a kisszobába,,1.0,1.0,6,28
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_curtain_smallroom_LAO.wav,15,kisszobába húzd szét a függönyt,,1.0,1.0,5,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_door_bathroom_AOL.wav,15,nyisd ki az ajtót a fürdőszobába,nik elal,1.0,0.84375,6,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_door_bathroom_LAO.wav,15,fürdőszobába nyisd ki az ajtót,,1.0,1.0,5,26
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_door_corridor_AOL.wav,15,nyisd ki a az ajtót a folyosón,ski altömöö,1.0,0.8,7,24
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_door_corridor_LAO.wav,15,a folyosón nyisd ki a ajtót,,1.0,1.0,6,22
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_door_kitchen_AOL.wav,15,nyisd ki a ajtót a konyhába,i w,1.0,0.9259259259259259,6,22
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_door_kitchen_LAO.wav,15,konyhába nyisd ki az ajtót,h,1.0,0.9615384615384616,5,22
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_door_livingroom_AOL.wav,15,nyisd ki a az ajtót a nagyszobába,niki konyröltot anacöl,1.0,0.6666666666666666,7,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_door_livingroom_LAO.wav,15,nagyszobába nyisd ki az ajtót,ac,1.0,0.9655172413793104,5,25
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_door_room_AOL.wav,15,nyisd ki az ajtót a szobába,nk e,1.0,0.8888888888888888,6,22
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_door_room_LAO.wav,15,szobába nyisd ki az ajtót,om,1.0,0.96,5,21
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_door_smallroom_AOL.wav,15,nyisd ki az ajtót a kisszobába,sk,1.0,0.9333333333333333,6,25
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_door_smallroom_LAO.wav,15,kisszobába nyisd ki az ajtót,,1.0,1.0,5,24
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_fan_bathroom_ALO.wav,15,kapcsold ki a fürdőszobába a ventilátort,komfu e,1.0,0.875,6,35
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_fan_bathroom_LAO.wav,15,fürdőszobába kapcsold ki a ventilátort,f,1.0,0.9736842105263158,5,34
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_fan_corridor_AOL.wav,15,kapcsold ki a ventilátort a folyosón,kapho v,1.0,0.8333333333333334,6,31
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_fan_corridor_LAO.wav,15,folyosón kapcsold ki a ventilátort,,1.0,1.0,5,30
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_fan_kitchen_AOL.wav,15,kapcsold ki a ventilátort a konyhában,a weee ajaban,0.8333333333333334,0.7837837837837838,6,32
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_fan_kitchen_LAO.wav,15,konyhába kapcsold ki a ventilátort,koyh ksol jaled,1.0,0.6470588235294118,5,30
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_fan_livingroom_ALO.wav,15,kapcsold ki a nagyszobába a ventilátort,ft,1.0,0.9743589743589743,6,34
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_fan_livingroom_LAO.wav,15,nagyszobába kapcsold ki a ventilátort,,1.0,1.0,5,33
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_fan_room_ALO.wav,15,kapcsold ki a szobába a ventilátort,,1.0,1.0,6,30
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_fan_room_LAO.wav,15,szobába kapcsold ki a ventilátort,su,1.0,0.9696969696969697,5,29
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_fan_smallroom_ALO.wav,15,kapcsold ki a kisszobába a ventilátort,,1.0,1.0,6,33
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_fan_smallroom_LAO.wav,15,kisszobába kapcsold ki a ventilátort,isu k,1.0,0.8888888888888888,5,32
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_heating_bathroom_AOL.wav,15,kapcsold ki a fűtést a fürdőszobába,kfl fítákileol,1.0,0.8285714285714286,6,30
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_heating_bathroom_LAO.wav,15,fürdőszobába kapcsold ki a fűtést,filis,1.0,0.8787878787878788,5,29
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_heating_corridor_AOL.wav,15,kapcsold ki a fűtést a folyosón,,1.0,1.0,6,26
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_heating_corridor_LAO.wav,15,folyosón kapcsold ki a fűtést,f,1.0,0.9655172413793104,5,25
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_heating_kitchen_AOL.wav,15,kapcsold ki a fűtést a konyhában,zuk ow,1.0,0.90625,6,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_heating_kitchen_LAO.wav,15,konyhában kapcsold ki a fűtést,oy kölö,1.0,0.8333333333333334,5,26
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_heating_livingroom_AOL.wav,15,kapcsold ki a fűtést a nagyszobában,kf,1.0,0.9428571428571428,6,30
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_heating_livingroom_LAO.wav,15,a nagyszobába kapcsold ki a fűtést,,1.0,1.0,6,29
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_heating_room_AOL.wav,15,kapcsold ki a fűtést a szobában,of al,1.0,0.8709677419354839,6,26
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_heating_room_LAO.wav,15,szobába kapcsold ki a fűtést,ö,1.0,1.0,5,24
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_heating_smallroom_AOL.wav,15,kapcsold ki a fűtést a kisszobában,kaff,1.0,0.9117647058823529,6,29
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_heating_smallroom_LAO.wav,15,kisszobába kapcsold ki a fűtést,ks lö,1.0,0.8709677419354839,5,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_NULL_NULL_A.wav,15,hívd föl a fiam,,1.0,1.0,4,12
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_oven_kitchen_AOL.wav,15,kapcsold ki a sütőt a konyhában,,1.0,1.0,6,26
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_oven_kitchen_LAO.wav,15,konyhában kapcsold ki a sütőt,koyh apcsolgefdöt,1.0,0.5862068965517241,5,25
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_radio_kitchen_AOL.wav,15,kapcsold ki a rádiót a konyhában,kfkoyha,1.0,0.8125,6,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_radio_kitchen_LAO.wav,15,konyhában kapcsold ki a rádiót,konykoyl,1.0,0.8,5,26
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_radio_livingroom_AOL.wav,15,kapcsold ki a rádiót a nagyszobában,fk,1.0,0.9714285714285714,6,30
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_radio_livingroom_LAO.wav,15,nagyszobába kapcsold ki a rádiót,a,0.8,0.96875,5,28
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_radio_room_AOL.wav,15,kapcsold ki a rádiót a szobában,kf al,1.0,0.9032258064516129,6,26
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_radio_room_LAO.wav,15,szobában kapcsold ki a rádiót,s,1.0,0.9655172413793104,5,25
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_radio_smallroom_AOL.wav,15,kapcsold ki a rádiót a kisszobában,,1.0,1.0,6,29
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_radio_smallroom_LAO.wav,15,kisszobába kapcsold ki a rádiót,kso,1.0,0.9032258064516129,5,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_shutter_bathroom_LAO.wav,15,fürdőszobába húzd szét a redőnyt,,1.0,1.0,5,28
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_shutter_corridor_LAO.wav,15,folyosón húzd szét a redőnyt,,1.0,1.0,5,24
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_toaster_kitchen_AOL.wav,15,kapcsold ki a pirítógépet a konyhába,konf goyl,1.0,0.8333333333333334,6,31
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_toaster_kitchen_LAO.wav,15,konyhában kapcsold ki a pirítót,konypl,1.0,0.8064516129032258,5,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_vacuum_bathroom_AOL.wav,15,kapcsold ki a porszívót a fürdőszobába,kafi masous fág,1.0,0.7631578947368421,6,33
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_vacuum_bathroom_LAO.wav,15,fürdőszobába kapcsold ki a porszívót,,1.0,1.0,5,32
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_vacuum_corridor_AOL.wav,15,kapcsold ki a porszívót a folyosón,kfkl se feo,1.0,0.7941176470588235,6,29
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_vacuum_kitchen_AOL.wav,15,kapcsold ki a porszívót a konyhában,,1.0,1.0,6,30
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_vacuum_kitchen_LAO.wav,15,konyhába kapcsold ki a porszívót,koyk,1.0,0.875,5,28
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_vacuum_livingroom_AOL.wav,15,kapcsold ki a porszívót a nagyszobában,kmk bl,1.0,0.8947368421052632,6,33
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_vacuum_livingroom_LAO.wav,15,nagyszobába kapcsold ki a porszívót,nat,1.0,0.9142857142857143,5,31
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_vacuum_room_AOL.wav,15,kapcsold ki a porszívót a szobába,kof,1.0,0.9393939393939394,6,28
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_vacuum_room_AOL_II.wav,15,kapcsold ki a porszívót a szobába,f obav,1.0,0.9090909090909091,6,28
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_vacuum_smallroom_AOL.wav,15,kapcsold ki a porszívót a kisszobába,kaf,1.0,0.9444444444444444,6,31
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_vacuum_smallroom_AOL_II.wav,15,kapcsold ki a porszívót a kisszobába,kk,1.0,0.9444444444444444,6,31
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_vacuum_smallroom_LAO.wav,15,kisszobába kapcsold ki a porszívót,mank koomail,1.0,0.8529411764705882,5,30
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_washingmachine_bathroom_ALO.wav,15,kapcsold be és állítsd harminc fokra a fürdőszobában a mosógépet,,1.0,1.0,10,55
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_washingmachine_bathroom_LAO.wav,15,a fürdőszobában kapcsold be a mosógépet és állítsd harminc fokra,idösolálval kapcsolóda hosoky vos álislalmésodra,1.0,0.59375,10,55
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_washingmachine_kitchen_AOL.wav,15,kapcsold be és állítsd harminc fokra a mosógépet a konyhában,afoé alli salmicsokra ojogzak a nyávan,0.9,0.5666666666666667,10,51
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_washingmachine_kitchen_LAO.wav,15,a konyhában kapcsold be a mosógépet és állítsd harminc fokra,gö y hms,1.0,0.9166666666666666,10,51
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_window_bathroom_AOL.wav,15,nyisd ki az ablakot a fürdőszobába,k f,1.0,0.9117647058823529,6,29
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_window_bathroom_LAO.wav,15,fürdőszobába nyisd ki az ablakot,,1.0,1.0,5,28
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_window_corridor_AOL.wav,15,nyisd ki az ablakot a folyosón,,1.0,1.0,6,25
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_window_corridor_LAO.wav,15,folyosón nyisd ki az ablakot,,1.0,1.0,5,24
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_window_kitchen_AOL.wav,15,nyisd ki az ablakot a konyhába,kögo,1.0,0.9333333333333333,6,25
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_window_kitchen_LAO.wav,15,konyhába nyisd ki az ablakot,,1.0,1.0,5,24
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_window_livingroom_AOL.wav,15,nyisd ki az ablakot a nagyszobába,,1.0,1.0,6,28
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_window_livingroom_LAO.wav,15,nagyszobába nyisd ki az ablakot,aad,1.0,0.9032258064516129,5,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_window_room_AOL.wav,15,nyisd ki az ablakot a szobába,,1.0,1.0,6,24
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_window_room_LAO.wav,15,szobába nyisd ki az ablakot,,1.0,1.0,5,23
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_window_smallroom_AOL.wav,15,nyisd ki az ablakot a kisszobába,ikdsál,1.0,0.875,6,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0001_window_smallroom_LAO.wav,15,kisszobába nyisd ki az ablakot,,1.0,1.0,5,26
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_computer_livingroom_AOL.wav,15,kapcsold be a számítógépet a nagyszobába,kafl,1.0,0.925,6,35
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_computer_livingroom_LAO.wav,15,nagyszobába kapcsold be a számítógépet,elt,1.0,0.9473684210526315,5,34
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_computer_room_AOL.wav,15,kapcsold be a számítógépet a szobába,kaffell oba,1.0,0.8055555555555556,6,31
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_computer_room_LAO.wav,15,szobában kapcsold be a számítógépet,sz flkn hibe,1.0,0.8285714285714286,5,31
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_computer_smallroom_AOL.wav,15,kapcsold be a számítógépet a kisszobába,kapcolbe sámdögöökissováb,1.0,0.48717948717948717,6,34
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_computer_smallroom_LAO.wav,15,kisszobába kapcsold be a számítógépet,kisz föbe szálta övöt,1.0,0.6486486486486487,5,33
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_curtain_kitchen_AOL.wav,15,húzd be a függönyt a konyhába,,1.0,1.0,6,24
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_curtain_livingroom_AOL.wav,15,húzd be a függönyt a nagyszobába,,1.0,1.0,6,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_curtain_smallroom_AOL.wav,15,húzd be a függönyt a kisszobába,u,1.0,1.0,6,26
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_dishwasher_kitchen_AOL.wav,15,kapcsold be a mosogatógépet a konyhában,dggdönyhevn,1.0,0.8205128205128205,6,34
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_dishwasher_kitchen_LAO.wav,15,konyhában kapcsold be a mosogatógépet,,1.0,1.0,5,33
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_door_bathroom_AOL.wav,15,csukd be az ajtót a fürdőszobába,t,1.0,0.96875,6,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_door_bathroom_LAO.wav,15,fürdőszobába zárd be az ajtót,,1.0,1.0,5,25
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_door_corridor_AOL.wav,15,csukd be az ajtót a folyosón,föe,1.0,0.9642857142857143,6,23
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_door_corridor_LAO.wav,15,folyosón zárd be az ajtót,n t,1.0,0.88,5,21
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_door_kitchen_AOL.wav,15,csukd be a ajtót a konyhába,oy,1.0,0.9259259259259259,6,22
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_door_kitchen_LAO.wav,15,konyhába zárd be az ajtót,ky,1.0,0.92,5,21
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_door_livingroom_AOL.wav,15,csukd be a ajtót a nagyszobába,ua,1.0,0.9333333333333333,6,25
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_door_livingroom_LAO.wav,15,nagyszobába zárd be az ajtót,,1.0,1.0,5,24
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_door_room_AOL.wav,15,csukd be az ajtót a szobába,,1.0,1.0,6,22
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_door_room_LAO.wav,15,szobába zárd be az ajtót,,1.0,1.0,5,20
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_door_smallroom_AOL.wav,15,csukd be az ajtót a kisszobába,,1.0,1.0,6,25
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_door_smallroom_LAO.wav,15,kisszobába zárd be az ajtót,k,1.0,0.9629629629629629,5,23
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_fan_bathroom_ALO.wav,15,kapcsold be a fürdőszobába a ventilátort,,1.0,1.0,6,35
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_fan_bathroom_LAO.wav,15,fürdőszobába kapcsold be a ventilátort,fögezl kapcsldölekeldott,1.0,0.6052631578947368,5,34
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_fan_corridor_ALO.wav,15,kapcsold be a folyosón a ventilátort,koo me,1.0,0.8611111111111112,6,31
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_fan_corridor_LAO.wav,15,folyosón kapcsold be a ventilátort,,1.0,1.0,5,30
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_fan_kitchen_AOL.wav,15,kapcsold be a ventilátort a konyhába,,1.0,1.0,6,31
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_fan_kitchen_LAO.wav,15,konyhába kapcsold be a ventilátort,ku,1.0,0.9705882352941176,5,30
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_fan_livingroom_LAO.wav,15,nagyszobába kapcsold be a ventilátort,mty,1.0,0.972972972972973,5,33
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_fan_room_ALO.wav,15,kapcsold be a szobába a ventilátort,kapslod oále,1.0,0.7428571428571429,6,30
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_fan_room_LAO.wav,15,szobába kapcsold be a ventilátort,,1.0,1.0,5,29
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_fan_smallroom_ALO.wav,15,kapcsold be a kisszobába a ventilátort,kafssllo legyádo,1.0,0.7631578947368421,6,33
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_fan_smallroom_LAO.wav,15,kisszobába kacsold be a ventilátort,gi,1.0,0.9714285714285714,5,31
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_heating_bathroom_AOL.wav,15,kapcsold be a fűtést a fürdőszobába,,1.0,1.0,6,30
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_heating_corridor_AOL.wav,15,kapcsold be a fűtést a folyosón,f,1.0,0.967741935483871,6,26
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_heating_kitchen_AOL.wav,15,kapcsold be a fűtést a konyhában,ye,1.0,0.96875,6,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_heating_kitchen_AOL_II.wav,15,kapcsold be a fűtést a konyhába,,1.0,1.0,6,26
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_heating_kitchen_LAO.wav,15,konyhába kapcsold be a fűtést,koyágok dofüiy,1.0,0.7586206896551724,5,25
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_heating_livingroom_AOL.wav,15,kapcsold be a fűtést a nagyszobába,a,0.8333333333333334,0.9705882352941176,6,29
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_heating_livingroom_LAO.wav,15,nagyszobába kapcsold be a fűtést,a kda,0.8,0.84375,5,28
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_heating_room_AOL.wav,15,kapcsold be a fűtést a szobában,atu,1.0,0.9354838709677419,6,26
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_heating_smallroom_AOL.wav,15,kapcsold be a fűtést a kisszobába,,1.0,1.0,6,28
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_heating_smallroom_LAO.wav,15,kisszobába kapcsold be a fűtést,ks,1.0,0.9354838709677419,5,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_kettle_kitchen_LAO.wav,15,a konyhában kapcsold be a vízforralót,oypcoöl,1.0,0.8378378378378378,6,32
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_NULL_NULL_A.wav,15,hívd föl a lányom,,1.0,1.0,4,14
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_oven_kitchen_AOL.wav,15,kapcsold be a sütőt a konyhában,aft,1.0,0.9354838709677419,6,26
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_radio_kitchen_AOL.wav,15,kapcsold be a rádiót a konyhában,oko,1.0,0.90625,6,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_radio_livingroom_AOL.wav,15,kapcsold be a rádiót a nagyszobába,kf,1.0,0.9705882352941176,6,29
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_radio_room_AOL.wav,15,kapcsold be a rádiót a szobában,kaff,1.0,0.9354838709677419,6,26
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_radio_smallroom_AOL.wav,15,kapcsold be a rádiót a kisszobába,,1.0,1.0,6,28
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_shutter_bathroom_AOL.wav,15,húzd be a redőnyt a fürdőszobába,ud,1.0,0.96875,6,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_shutter_room_AOL.wav,15, húzd be a redőnyt a szobába,,1.0,1.0,6,22
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_toaster_kitchen_AOL.wav,15,kapcsold be a pirítót a konyhában,,1.0,1.0,6,28
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_toaster_kitchen_LAO.wav,15,a konyhában kapcsold be a pirítót,konyhában kapcsolog jabienkapcsolok nabidott,0.8333333333333334,0.6666666666666666,6,28
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_vacuum_bathroom_ALO.wav,15,kapcsold be a fürdőszobába a porszívót,ktd eeold,1.0,0.868421052631579,6,33
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_vacuum_bathroom_AOL.wav,15,kapcsold be a porszívót a fürdőszobába,ka lá,1.0,0.8947368421052632,6,33
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_vacuum_corridor_AOL.wav,15,kapcsold be a porszívót a folyosón,kf f,1.0,0.9117647058823529,6,29
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_vacuum_corridor_LAO.wav,15,a folyosón kapcsold be a porszívót,a fö kapcsolodle bolilt,0.8333333333333334,0.5588235294117647,6,29
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_vacuum_kitchen_AOL.wav,15,kapcsold be a porszívót a konyhába,kapsldtk foilóta konhábal,1.0,0.47058823529411764,6,29
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_vacuum_kitchen_LAO.wav,15,konyhába kapcsold be a porszívót,koykk,1.0,0.875,5,28
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_vacuum_livingroom_AOL.wav,15,kapcsold be a porszívót a nagyszobába,kamfl,1.0,0.918918918918919,6,32
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_vacuum_livingroom_LAO.wav,15,nagyszobába kapcsold be a porszívót,,1.0,1.0,5,31
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_vacuum_room_LAO.wav,15,szobába kapcsold be a porszívót,,1.0,1.0,5,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_vacuum_smallroom_LAO.wav,15,kisszobába kapcsold be a porszívót,k,1.0,0.9705882352941176,5,30
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_washingmachine_bathroom_LAO.wav,15,a fürdőszobában kapcsold be a mosógépet és állítsd hatvan fokra,kamtölle 1nfg,1.0,0.8571428571428571,10,54
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_washingmachine_bathroom_OAL.wav,15,a mosógépet kapcsold be és állítsd hatvan fokra a fürdőszobában,ggytöisofgfyysöl,1.0,0.8888888888888888,10,54
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_washingmachine_kitchen_AOL.wav,15,kapcsold be a mosógépet és állítsd hatvan fokra a konyhában,kafono olá sodban foglal konyhában,0.9,0.5932203389830508,10,50
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_washingmachine_kitchen_LAO.wav,15,a konyhában kapcsold be a mosógépet és állítsd hatvan fokra,a konyhaban kostl bel mookjye áyhatma fogra,0.9,0.4576271186440678,10,50
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_window_bathroom_AOL.wav,15,zárd be az ablakot a fürdőszobába,,1.0,1.0,6,28
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_window_bathroom_LAO.wav,15,fürdőszobába zárd be az ablakot,,1.0,1.0,5,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_window_corridor_AOL.wav,15,zárd be az ablakot a folyosón,,1.0,1.0,6,24
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_window_corridor_LAO.wav,15,folyosón zárd be az ablakot,,1.0,1.0,5,23
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_window_kitchen_AOL.wav,15,zárd be az ablakot a konyhába,ekoy,1.0,0.8620689655172413,6,24
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_window_kitchen_LAO.wav,15,konyhába zárd be az ablakot,koyá,1.0,0.8518518518518519,5,23
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_window_livingroom_AOL.wav,15,zárd be az ablakot a nagyszobába,,1.0,1.0,6,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_window_livingroom_LAO.wav,15,nagyszobában zárd be az ablakot,a,1.0,0.967741935483871,5,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_window_room_AOL.wav,15,zárd be az ablakot a szobába,,1.0,1.0,6,23
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_window_room_LAO.wav,15,szobába zárd be az ablakot,o,1.0,0.9615384615384616,5,22
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_window_smallroom_AOL.wav,15,zárd be az ablakot a kisszobába,missl,1.0,0.9032258064516129,6,26
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0010_window_smallroom_LAO.wav,15,kisszobában zárd be az ablakot,,1.0,1.0,5,26
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_electricity_bathroom_AOL.wav,15,kapcsold le a villanyt a fürdőszobába,kaf,1.0,0.918918918918919,6,32
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_electricity_bathroom_LAO.wav,15,fürdőszobába kapcsold le a villanyt,,1.0,1.0,5,31
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_electricity_corridor_AOL.wav,15,kapcsold le a villanyt a folyosón,,1.0,1.0,6,28
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_electricity_corridor_LAO.wav,15,folyosón kapcsold le a villanyt,,1.0,1.0,5,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_electricity_kitchen_AOL.wav,15,kapcsold le a villanyt a konyhába,kafl,1.0,0.9090909090909091,6,28
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_electricity_kitchen_LAO.wav,15,konyhába kapcsold le a villanyt,,1.0,1.0,5,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_electricity_livingroom_AOL.wav,15,kapcsold le a villanyt a nagyszobába,cmf,1.0,0.9722222222222222,6,31
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_electricity_livingroom_LAO.wav,15,nagyszobába kapcsold le a villanyt,,1.0,1.0,5,30
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_electricity_room_AOL.wav,15,kapcsold le a villanyt a szobában,af,1.0,0.9696969696969697,6,28
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_electricity_room_LAO.wav,15,szobába kapcsold le a villanyt,su,1.0,0.9666666666666667,5,26
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_electricity_smallroom_AOL.wav,15,kapcsold le a villanyt a kisszobába,,1.0,1.0,6,30
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_electricity_smallroom_LAO.wav,15,kisszobába kapcsold le a villanyt,kz,1.0,0.9393939393939394,5,29
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_heating_bathroom_AOL.wav,15,vedd lejjebb a fűtést a fürdőszobába,eddley fidehefülaw,1.0,0.75,6,31
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_heating_bathroom_LAO.wav,15,fürdőszobába vedd le a fűtést,,1.0,1.0,5,25
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_heating_corridor_AOL.wav,15,vedd lejjebb a fűtést a folyosón,o aö,1.0,0.9375,6,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_heating_corridor_LAO.wav,15,folyosón vedd lejjebb a fűtést,,1.0,1.0,5,26
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_heating_kitchen_AOL.wav,15,vedd lejjebb a fűtést a konyhába,mettl koee,1.0,0.8125,6,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_heating_kitchen_LAO.wav,15,konyhába vedd le a fűtést,konyhába vedle a fütést,0.6,0.12,5,21
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_heating_livingroom_AOL.wav,15,vedd lejjebb a fűtést a nagyszobába,üee,1.0,0.9428571428571428,6,30
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_heating_livingroom_LAO.wav,15,nagyszobába vedd lejjebb a fűtést,a,0.8,0.9696969696969697,5,29
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_heating_room_AOL.wav,15,vedd lejjebb a fűtést a szobába,ve idicte telhebben,1.0,0.8064516129032258,6,26
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_heating_room_LAO.wav,15,szobába vedd le a fűtést,,1.0,1.0,5,20
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_heating_smallroom_LAO.wav,15,kisszobába vedd lejjebb a fűtést,kiso avdf,1.0,0.75,5,28
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_shutter_bathroom_AOL.wav,15,húzd le a redőnyt a fürdőszobába,hafl,1.0,0.90625,6,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_shutter_bathroom_LAO.wav,15,fürdőszobába húzd le a redőnyt,,1.0,1.0,5,26
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_shutter_bathroom_LAO_II.wav,15,fürdőszobában húzd le a redőnyt,,1.0,1.0,5,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_shutter_corridor_AOL.wav,15,húzd le a redőnyt a folyosón,,1.0,1.0,6,23
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_shutter_corridor_LAO.wav,15,folyosón húzd le a redőnyt,,1.0,1.0,5,22
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_shutter_kitchen_AOL.wav,15,húzd le a redőnyt a konyhába,u o,1.0,0.9285714285714286,6,23
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_shutter_kitchen_LAO.wav,15,konyhában húzd le a redőnyt,,1.0,1.0,5,23
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_shutter_kitchen_LAO_II.wav,15,konyhába húzd le a redőnyt,kuy e,1.0,0.8461538461538461,5,22
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_shutter_livingroom_AL.wav,15,húzd le a nagyszobába,hull,1.0,0.9047619047619048,4,18
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_shutter_livingroom_LAO.wav,15,nagyszobában húzd le a redőnyt,x,1.0,1.0,5,26
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_shutter_livingroom_LAO_II.wav,15,nagyszobába húzd le a redőnyt,,1.0,1.0,5,25
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_shutter_room_AOL.wav,15,húzd le a redőnyt a szobába,,1.0,1.0,6,22
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_shutter_room_LAO.wav,15,szobába húzd le a redőnyt,,1.0,1.0,5,21
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_shutter_room_LAO_II.wav,15,szobába húzd le a redőnyt,,1.0,1.0,5,21
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_shutter_smallroom_AOL.wav,15,húzd le a redőnyt a kisszobába,,1.0,1.0,6,25
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_shutter_smallroom_LAO.wav,15,kisszobába húzd le a redőnyt,,1.0,1.0,5,24
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_shutter_smallroom_LAO_II.wav,15,kisszobába húzd le a redőnyt,,1.0,1.0,5,24
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_TV_livingroom_AOL.wav,15,halkítsd le a tévét a nagyszobába,a,0.8333333333333334,0.9696969696969697,6,28
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_TV_livingroom_LAO.wav,15,a nagyszobában halkítsd le a tévét,d,1.0,0.9705882352941176,6,29
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_TV_room_AOL.wav,15,halkítsd le a tévét a szobába,ak,1.0,0.9310344827586207,6,24
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_TV_room_LAO.wav,15,szobában halkítsd le a tévét,,1.0,1.0,5,24
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_TV_smallroom_AOL.wav,15,halkítsd le a tévét a kisszobába,,1.0,1.0,6,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_0100_TV_smallroom_LAO.wav,15,kisszobában halkítsd le a tévét,,1.0,1.0,5,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_electricity_bathroom_AOL.wav,15,kapcsold fel a villanyt a fürdőszobában,k deá,1.0,0.8974358974358975,6,34
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_electricity_bathroom_LAO.wav,15,fürdőszobába kapcsold fel a villanyt,,1.0,1.0,5,32
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_electricity_corridor_AOL.wav,15,kapcsold fel a villanyt a folyosón,koff,1.0,0.8823529411764706,6,29
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_electricity_corridor_LAO.wav,15,folyosón kapcsold fel a villanyt,,1.0,1.0,5,28
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_electricity_kitchen_AOL.wav,15,kapcsold fel a villanyt a konyhában,kaf,1.0,0.9142857142857143,6,30
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_electricity_kitchen_LAO.wav,15,konyhában kapcsold fel a villanyt,,1.0,1.0,5,29
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_electricity_livingroom_AOL.wav,15,kapcsold fel a villanyt a nagyszobában,kofte,1.0,0.8947368421052632,6,33
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_electricity_livingroom_LAO.wav,15,nagyszobába kapcsold fel a villanyt,m,1.0,1.0,5,31
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_electricity_room_AOL.wav,15,kapcsold fel a villanyt a szobában,,1.0,1.0,6,29
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_electricity_room_LAO.wav,15,szobában kapcsold fel a villanyt,,1.0,1.0,5,28
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_electricity_smallroom_AOL.wav,15,kapcsold fel a villanyt a kisszobába,,1.0,1.0,6,31
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_electricity_smallroom_LAO.wav,15,kisszobába kapcsold fel a villanyt,k,1.0,0.9705882352941176,5,30
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_heating_bathroom_AOL.wav,15,kapcsold fel a fűtést a fürdőszobába,k,1.0,0.9722222222222222,6,31
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_heating_bathroom_LAO.wav,15,fürdőszobába kapcsold fel a fűtést,,1.0,1.0,5,30
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_heating_bathroom_LAO_II.wav,15,fürdőszobába kapcsold fel a fűtést,f,1.0,0.9705882352941176,5,30
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_heating_corridor_AOL.wav,15,kapcsold fel a fűtést a folyosón,kp ö,1.0,0.90625,6,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_heating_corridor_LAO.wav,15,a folyosón kapcsold fel a fűtést,a,0.8333333333333334,0.96875,6,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_heating_kitchen_LAO.wav,15,konyhába kapcsold fel a fűtést,koya,1.0,0.8666666666666667,5,26
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_heating_livingroom_AOL.wav,15,kapcsold fel a fűtést a nagyszobába,köf,1.0,0.9428571428571428,6,30
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_heating_livingroom_LAO.wav,15,nagyszobába kapcsold fel a fűtést,nagy zlgaso az üdést,1.0,0.6060606060606061,5,29
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_heating_room_LAO.wav,15,szobába kapcsold fel a fűtést,,1.0,1.0,5,25
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_heating_room_LAO_II.wav,15,szobában kapcsold fel a fűtést,sb,1.0,0.9333333333333333,5,26
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_heating_smallroom_AOL.wav,15,kapcsold feljebb a fűtést a kisszobába,,1.0,1.0,6,33
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_heating_smallroom_LAO.wav,15,kisszobába kapcsold fel a fűtést,ks,1.0,0.9375,5,28
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_shutter_bathroom_AOL.wav,15,húzd fel a redőnyt a fürdőszobába,hu,1.0,0.9696969696969697,6,28
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_shutter_bathroom_LAO.wav,15,fürdőszobába húzd fel a redőnyt,,1.0,1.0,5,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_shutter_corridor_AOL.wav,15,húzd fel a redőnyt a folyosón,us,1.0,0.9655172413793104,6,24
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_shutter_corridor_LAO.wav,15,folyosón húzd fel a redőnyt,,1.0,1.0,5,23
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_shutter_kitchen_AOL.wav,15,húzd fel a redőnyt a konyhában,h,1.0,0.9666666666666667,6,25
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_shutter_kitchen_LAO.wav,15,konyhában húzd fel a redőnyt,kuy,1.0,0.9285714285714286,5,24
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_shutter_livingroom_ALO.wav,15,húzd fel a nagyszobában a redőnyt,,1.0,1.0,6,28
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_shutter_livingroom_LAO.wav,15,nagyszobában húzd fel a redőnyt,,1.0,1.0,5,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_shutter_room_AOL.wav,15,húzd fel a redőnyt a szobában,us,1.0,0.9655172413793104,6,24
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_shutter_room_LAO.wav,15,szobába húzd fel a redőnyt,,1.0,1.0,5,22
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_shutter_smallroom_AOL.wav,15,húzd fel a redőnyt a kisszobába,hu ak,1.0,0.8709677419354839,6,26
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_shutter_smallroom_LAO.wav,15,kisszobában húzd fel a redőnyt,k,1.0,0.9666666666666667,5,26
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_TV_livingroom_AOL.wav,15,hangosítsd föl a tévét a nagyszobába,a,0.8333333333333334,0.9722222222222222,6,31
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_TV_livingroom_LAO.wav,15,nagyszobába hangosítsd föl a tévét,ma hd,1.0,0.8823529411764706,5,30
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_TV_room_AOL.wav,15,hangosítsd fel a tévét a szobába,angt tírt vel,1.0,0.75,6,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_TV_room_LAO.wav,15,szobába hangosítsd föl a tévét,,1.0,1.0,5,26
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_TV_smallroom_AOL.wav,15,hangosítsd föl a tévét a kisszobába,a ete ido ke sá,1.0,0.8,6,30
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1000_TV_smallroom_LAO.wav,15,kisszobába hangosítsd föl a tévét,,1.0,1.0,5,29
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1111_NULL_kitchen_AL.wav,15,válts csatornát a konyhában,áo,1.0,0.9259259259259259,4,24
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1111_NULL_kitchen_LA.wav,15,konyhában válts csatornát,konyá,1.0,0.8,3,23
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1111_NULL_livingroom_AL.wav,15,válts csatornát a nagyszobában,at,1.0,0.9333333333333333,4,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1111_NULL_livingroom_LA.wav,15,nagyszobába válts csatornát,,1.0,1.0,3,25
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1111_NULL_room_AL.wav,15,válts csatornát a szobába,,1.0,1.0,4,22
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1111_NULL_room_LA.wav,15,szobában válts csatornát,,1.0,1.0,3,22
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1111_NULL_smallroom_AL.wav,15,válts csatornát a kisszobába,lá l,1.0,0.8928571428571429,4,25
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1111_NULL_smallroom_LA.wav,15,kisszobába válts csatornát,,1.0,1.0,3,24
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1111_radio_kitchen_LAO.wav,15,konyhába kapcsold be a rádiót,kunyá,1.0,0.8620689655172413,5,25
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1111_radio_livingroom_LAO.wav,15,nagyszobába kapcsold be a rádiót,,1.0,1.0,5,28
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1111_radio_room_LAO.wav,15,szobába kapcsold be a rádiót,,1.0,1.0,5,24
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1111_radio_smallroom_LAO.wav,15,kisszobába kapcsold be a rádiót,,1.0,1.0,5,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1111_TV_livingroom_AOL.wav,15,válts csatornát a tévén a nagyszobában,e,1.0,1.0,6,33
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1111_TV_livingroom_LAO.wav,15,nagyszobában válts tévé csatornát,,1.0,1.0,4,30
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1111_TV_room_AOL.wav,15,válts csatornát a tévén a szobában,,1.0,1.0,6,29
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1111_TV_room_LAO.wav,15,szobába válts csatornát a tévén,hu,1.0,1.0,5,27
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1111_TV_smallroom_AOL.wav,15,válts csatornát a tévén a kisszobában,várt,1.0,0.8918918918918919,6,32
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\RnV-main\RnV-main\testmhub\wavs\C_016_1111_TV_smallroom_LAO.wav,15,kisszobába válts csatornát a tévén,,1.0,1.0,5,30
