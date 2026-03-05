@@ -1,0 +1,534 @@
+PS C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\uborka\knn-vc-master> ls
+
+
+    Directory: C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\uborka\knn-vc-master
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----     2026. 01. 29.     18:09                .idea
+d-----     2023. 11. 21.      9:59                data_splits
+d-----     2025. 11. 08.      0:10                hifigan
+d-----     2023. 11. 21.      9:59                wavlm
+------     2023. 11. 21.      9:59           1828 .gitignore
+------     2023. 11. 21.      9:59           2854 hubconf.py
+------     2023. 11. 21.      9:59          53031 knn-vc.png
+------     2023. 11. 21.      9:59           3867 knnvc_demo.ipynb
+------     2023. 11. 21.      9:59            546 knnvc_utils.py
+------     2023. 11. 21.      9:59           1299 LICENSE
+------     2023. 11. 21.      9:59           7910 matcher.py
+-a----     2025. 11. 11.      8:21          89786 output16.txt
+------     2023. 11. 21.      9:59           6648 prematch_dataset.py
+-a----     2025. 11. 08.      0:26            303 qs.py
+------     2023. 11. 21.      9:59           8717 README.md
+
+
+PS C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\uborka\knn-vc-master> python .\hifigan\train.py --audio_root_path "D:\testingstuff\hun_dataset\hu\prematched_57k" --feature_root_path "D:\testingstuff\hun_dataset\hu\prematched" --input_training_file "D:\testingstuff\hun_dataset\hu\prematchedtraining.txt" --input_validation_file "D:\testingstuff\hun_dataset\hu\prematchedvalidation.txt" --config .\hifigan\config_v1_wavlm.json --checkpoint_path "D:\testingstuff\checkpoints\prematched" --training_epochs 50 --stdout_interval 10000 --checkpoint_interval 10000 --summary_interval 10000 --validation_interval 10000 --fp16 True
+Initializing Training Process..
+Namespace(group_name=None, audio_root_path='D:\\testingstuff\\hun_dataset\\hu\\prematched_57k', feature_root_path='D:\\testingstuff\\hun_dataset\\hu\\prematched', input_training_file='D:\\testingstuff\\hun_dataset\\hu\\prematchedtraining.txt', input_validation_file='D:\\testingstuff\\hun_dataset\\hu\\prematchedvalidation.txt', checkpoint_path='D:\\testingstuff\\checkpoints\\prematched', config='.\\hifigan\\config_v1_wavlm.json', training_epochs=50, stdout_interval=10000, checkpoint_interval=10000, summary_interval=10000, validation_interval=10000, fp16=True, fine_tuning=False)
+Batch size per GPU : 8
+C:\Users\reaso\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\nn\utils\weight_norm.py:144: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+Generator(
+  (lin_pre): Linear(in_features=768, out_features=512, bias=True)
+  (conv_pre): Conv1d(512, 512, kernel_size=(7,), stride=(1,), padding=(3,))
+  (ups): ModuleList(
+    (0): ConvTranspose1d(512, 256, kernel_size=(20,), stride=(10,), padding=(5,))
+    (1): ConvTranspose1d(256, 128, kernel_size=(16,), stride=(8,), padding=(4,))
+    (2): ConvTranspose1d(128, 64, kernel_size=(4,), stride=(2,), padding=(1,))
+    (3): ConvTranspose1d(64, 32, kernel_size=(4,), stride=(2,), padding=(1,))
+  )
+  (resblocks): ModuleList(
+    (0): ResBlock1(
+      (convs1): ModuleList(
+        (0): Conv1d(256, 256, kernel_size=(3,), stride=(1,), padding=(1,))
+        (1): Conv1d(256, 256, kernel_size=(3,), stride=(1,), padding=(3,), dilation=(3,))
+        (2): Conv1d(256, 256, kernel_size=(3,), stride=(1,), padding=(5,), dilation=(5,))
+      )
+      (convs2): ModuleList(
+        (0-2): 3 x Conv1d(256, 256, kernel_size=(3,), stride=(1,), padding=(1,))
+      )
+    )
+    (1): ResBlock1(
+      (convs1): ModuleList(
+        (0): Conv1d(256, 256, kernel_size=(7,), stride=(1,), padding=(3,))
+        (1): Conv1d(256, 256, kernel_size=(7,), stride=(1,), padding=(9,), dilation=(3,))
+        (2): Conv1d(256, 256, kernel_size=(7,), stride=(1,), padding=(15,), dilation=(5,))
+      )
+      (convs2): ModuleList(
+        (0-2): 3 x Conv1d(256, 256, kernel_size=(7,), stride=(1,), padding=(3,))
+      )
+    )
+    (2): ResBlock1(
+      (convs1): ModuleList(
+        (0): Conv1d(256, 256, kernel_size=(11,), stride=(1,), padding=(5,))
+        (1): Conv1d(256, 256, kernel_size=(11,), stride=(1,), padding=(15,), dilation=(3,))
+        (2): Conv1d(256, 256, kernel_size=(11,), stride=(1,), padding=(25,), dilation=(5,))
+      )
+      (convs2): ModuleList(
+        (0-2): 3 x Conv1d(256, 256, kernel_size=(11,), stride=(1,), padding=(5,))
+      )
+    )
+    (3): ResBlock1(
+      (convs1): ModuleList(
+        (0): Conv1d(128, 128, kernel_size=(3,), stride=(1,), padding=(1,))
+        (1): Conv1d(128, 128, kernel_size=(3,), stride=(1,), padding=(3,), dilation=(3,))
+        (2): Conv1d(128, 128, kernel_size=(3,), stride=(1,), padding=(5,), dilation=(5,))
+      )
+      (convs2): ModuleList(
+        (0-2): 3 x Conv1d(128, 128, kernel_size=(3,), stride=(1,), padding=(1,))
+      )
+    )
+    (4): ResBlock1(
+      (convs1): ModuleList(
+        (0): Conv1d(128, 128, kernel_size=(7,), stride=(1,), padding=(3,))
+        (1): Conv1d(128, 128, kernel_size=(7,), stride=(1,), padding=(9,), dilation=(3,))
+        (2): Conv1d(128, 128, kernel_size=(7,), stride=(1,), padding=(15,), dilation=(5,))
+      )
+      (convs2): ModuleList(
+        (0-2): 3 x Conv1d(128, 128, kernel_size=(7,), stride=(1,), padding=(3,))
+      )
+    )
+    (5): ResBlock1(
+      (convs1): ModuleList(
+        (0): Conv1d(128, 128, kernel_size=(11,), stride=(1,), padding=(5,))
+        (1): Conv1d(128, 128, kernel_size=(11,), stride=(1,), padding=(15,), dilation=(3,))
+        (2): Conv1d(128, 128, kernel_size=(11,), stride=(1,), padding=(25,), dilation=(5,))
+      )
+      (convs2): ModuleList(
+        (0-2): 3 x Conv1d(128, 128, kernel_size=(11,), stride=(1,), padding=(5,))
+      )
+    )
+    (6): ResBlock1(
+      (convs1): ModuleList(
+        (0): Conv1d(64, 64, kernel_size=(3,), stride=(1,), padding=(1,))
+        (1): Conv1d(64, 64, kernel_size=(3,), stride=(1,), padding=(3,), dilation=(3,))
+        (2): Conv1d(64, 64, kernel_size=(3,), stride=(1,), padding=(5,), dilation=(5,))
+      )
+      (convs2): ModuleList(
+        (0-2): 3 x Conv1d(64, 64, kernel_size=(3,), stride=(1,), padding=(1,))
+      )
+    )
+    (7): ResBlock1(
+      (convs1): ModuleList(
+        (0): Conv1d(64, 64, kernel_size=(7,), stride=(1,), padding=(3,))
+        (1): Conv1d(64, 64, kernel_size=(7,), stride=(1,), padding=(9,), dilation=(3,))
+        (2): Conv1d(64, 64, kernel_size=(7,), stride=(1,), padding=(15,), dilation=(5,))
+      )
+      (convs2): ModuleList(
+        (0-2): 3 x Conv1d(64, 64, kernel_size=(7,), stride=(1,), padding=(3,))
+      )
+    )
+    (8): ResBlock1(
+      (convs1): ModuleList(
+        (0): Conv1d(64, 64, kernel_size=(11,), stride=(1,), padding=(5,))
+        (1): Conv1d(64, 64, kernel_size=(11,), stride=(1,), padding=(15,), dilation=(3,))
+        (2): Conv1d(64, 64, kernel_size=(11,), stride=(1,), padding=(25,), dilation=(5,))
+      )
+      (convs2): ModuleList(
+        (0-2): 3 x Conv1d(64, 64, kernel_size=(11,), stride=(1,), padding=(5,))
+      )
+    )
+    (9): ResBlock1(
+      (convs1): ModuleList(
+        (0): Conv1d(32, 32, kernel_size=(3,), stride=(1,), padding=(1,))
+        (1): Conv1d(32, 32, kernel_size=(3,), stride=(1,), padding=(3,), dilation=(3,))
+        (2): Conv1d(32, 32, kernel_size=(3,), stride=(1,), padding=(5,), dilation=(5,))
+      )
+      (convs2): ModuleList(
+        (0-2): 3 x Conv1d(32, 32, kernel_size=(3,), stride=(1,), padding=(1,))
+      )
+    )
+    (10): ResBlock1(
+      (convs1): ModuleList(
+        (0): Conv1d(32, 32, kernel_size=(7,), stride=(1,), padding=(3,))
+        (1): Conv1d(32, 32, kernel_size=(7,), stride=(1,), padding=(9,), dilation=(3,))
+        (2): Conv1d(32, 32, kernel_size=(7,), stride=(1,), padding=(15,), dilation=(5,))
+      )
+      (convs2): ModuleList(
+        (0-2): 3 x Conv1d(32, 32, kernel_size=(7,), stride=(1,), padding=(3,))
+      )
+    )
+    (11): ResBlock1(
+      (convs1): ModuleList(
+        (0): Conv1d(32, 32, kernel_size=(11,), stride=(1,), padding=(5,))
+        (1): Conv1d(32, 32, kernel_size=(11,), stride=(1,), padding=(15,), dilation=(3,))
+        (2): Conv1d(32, 32, kernel_size=(11,), stride=(1,), padding=(25,), dilation=(5,))
+      )
+      (convs2): ModuleList(
+        (0-2): 3 x Conv1d(32, 32, kernel_size=(11,), stride=(1,), padding=(5,))
+      )
+    )
+  )
+  (conv_post): Conv1d(32, 1, kernel_size=(7,), stride=(1,), padding=(3,))
+)
+checkpoints directory :  D:\testingstuff\checkpoints\prematched
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\uborka\knn-vc-master\hifigan\train.py:81: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler_g = GradScaler()
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\uborka\knn-vc-master\hifigan\train.py:82: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler_d = GradScaler()
+C:\Users\reaso\AppData\Local\Programs\Python\Python313\Lib\site-packages\torchaudio\transforms\_transforms.py:581: UserWarning: Argument 'onesided' has been deprecated and has no influence on the behavior of this module.
+  warnings.warn(
+Epoch: 1
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\uborka\knn-vc-master\hifigan\train.py:147: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=a.fp16):
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\uborka\knn-vc-master\hifigan\train.py:160: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=a.fp16):
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\uborka\knn-vc-master\hifigan\train.py:182: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=a.fp16):
+Steps : 0, Gen Loss Total : 130.519, Mel-Spec. Error : 2.716, sec/batch : 5.748, peak mem:  2.50GB
+validation run complete at 0 steps. validation mel spec error: 3.4850
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\uborka\knn-vc-master\hifigan\train.py:147: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=a.fp16):
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\uborka\knn-vc-master\hifigan\train.py:160: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=a.fp16):
+C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\uborka\knn-vc-master\hifigan\train.py:182: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=a.fp16):
+Time taken for epoch 1 is 2596 sec
+
+Epoch: 2
+Steps : 10,000, Gen Loss Total : 27.185, Mel-Spec. Error : 0.499, sec/batch : 0.284, peak mem:  3.24GB:40]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00010000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00010000.pt
+Complete.
+validation run complete at 10,000 steps. validation mel spec error: 0.7294
+Time taken for epoch 2 is 2023 sec
+
+Epoch: 3
+Steps : 20,000, Gen Loss Total : 42.499, Mel-Spec. Error : 0.755, sec/batch : 0.280, peak mem:  3.24GB:00]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00020000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00020000.pt
+Complete.
+validation run complete at 20,000 steps. validation mel spec error: 0.7274
+Time taken for epoch 3 is 2456 sec
+
+Epoch: 4
+Time taken for epoch 4 is 1888 sec
+
+Epoch: 5
+Steps : 30,000, Gen Loss Total : 37.486, Mel-Spec. Error : 0.629, sec/batch : 0.281, peak mem:  3.24GB:47]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00030000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00030000.pt
+Complete.
+validation run complete at 30,000 steps. validation mel spec error: 0.7181
+Time taken for epoch 5 is 2448 sec
+
+Epoch: 6
+Steps : 40,000, Gen Loss Total : 35.589, Mel-Spec. Error : 0.609, sec/batch : 0.286, peak mem:  3.24GB:13]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00040000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00040000.pt
+Complete.
+validation run complete at 40,000 steps. validation mel spec error: 0.7152
+Time taken for epoch 6 is 2025 sec
+
+Epoch: 7
+Time taken for epoch 7 is 2315 sec
+
+Epoch: 8
+Steps : 50,000, Gen Loss Total : 47.151, Mel-Spec. Error : 0.819, sec/batch : 0.282, peak mem:  3.24GB:47]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00050000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00050000.pt
+Complete.
+validation run complete at 50,000 steps. validation mel spec error: 0.7136
+Time taken for epoch 8 is 2013 sec
+
+Epoch: 9
+Steps : 60,000, Gen Loss Total : 41.609, Mel-Spec. Error : 0.680, sec/batch : 0.280, peak mem:  3.24GB:02]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00060000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00060000.pt
+Complete.
+validation run complete at 60,000 steps. validation mel spec error: 0.6993
+Time taken for epoch 9 is 2457 sec
+
+Epoch: 10
+Time taken for epoch 10 is 1888 sec
+
+Epoch: 11
+Steps : 70,000, Gen Loss Total : 36.718, Mel-Spec. Error : 0.604, sec/batch : 0.281, peak mem:  3.24GB8:04]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00070000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00070000.pt
+Complete.
+validation run complete at 70,000 steps. validation mel spec error: 0.6945
+Time taken for epoch 11 is 2499 sec
+
+Epoch: 12
+Steps : 80,000, Gen Loss Total : 40.144, Mel-Spec. Error : 0.628, sec/batch : 0.285, peak mem:  3.24GB6:31]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00080000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00080000.pt
+Complete.
+validation run complete at 80,000 steps. validation mel spec error: 0.7111
+Time taken for epoch 12 is 2059 sec
+
+Epoch: 13
+Time taken for epoch 13 is 2327 sec
+
+Epoch: 14
+Steps : 90,000, Gen Loss Total : 37.033, Mel-Spec. Error : 0.624, sec/batch : 0.281, peak mem:  3.24GB3:01]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00090000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00090000.pt
+Complete.
+validation run complete at 90,000 steps. validation mel spec error: 0.7012
+Time taken for epoch 14 is 2017 sec
+
+Epoch: 15
+Steps : 100,000, Gen Loss Total : 42.263, Mel-Spec. Error : 0.671, sec/batch : 0.280, peak mem:  3.24GB:15]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00100000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00100000.pt
+Complete.
+validation run complete at 100,000 steps. validation mel spec error: 0.7167
+Time taken for epoch 15 is 2496 sec
+
+Epoch: 16
+Time taken for epoch 16 is 1888 sec
+
+Epoch: 17
+Steps : 110,000, Gen Loss Total : 38.581, Mel-Spec. Error : 0.603, sec/batch : 0.281, peak mem:  3.24GB:19]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00110000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00110000.pt
+Complete.
+validation run complete at 110,000 steps. validation mel spec error: 0.7063
+Time taken for epoch 17 is 2489 sec
+
+Epoch: 18
+Steps : 120,000, Gen Loss Total : 33.785, Mel-Spec. Error : 0.545, sec/batch : 0.282, peak mem:  3.24GB:42]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00120000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00120000.pt
+Complete.
+validation run complete at 120,000 steps. validation mel spec error: 0.6996
+Time taken for epoch 18 is 2049 sec
+
+Epoch: 19
+Time taken for epoch 19 is 2339 sec
+
+Epoch: 20
+Steps : 130,000, Gen Loss Total : 44.284, Mel-Spec. Error : 0.726, sec/batch : 0.281, peak mem:  3.24GB:14]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00130000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00130000.pt
+Complete.
+validation run complete at 130,000 steps. validation mel spec error: 0.6949
+Time taken for epoch 20 is 2016 sec
+
+Epoch: 21
+Steps : 140,000, Gen Loss Total : 35.257, Mel-Spec. Error : 0.578, sec/batch : 0.280, peak mem:  3.24GB:40]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00140000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00140000.pt
+Complete.
+validation run complete at 140,000 steps. validation mel spec error: 0.6949
+Time taken for epoch 21 is 2512 sec
+
+Epoch: 22
+Time taken for epoch 22 is 1885 sec
+
+Epoch: 23
+Steps : 150,000, Gen Loss Total : 39.921, Mel-Spec. Error : 0.631, sec/batch : 0.281, peak mem:  3.24GB06]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00150000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00150000.pt
+Complete.
+validation run complete at 150,000 steps. validation mel spec error: 0.7018
+Time taken for epoch 23 is 2469 sec
+
+Epoch: 24
+Steps : 160,000, Gen Loss Total : 41.954, Mel-Spec. Error : 0.685, sec/batch : 0.281, peak mem:  3.24GB:55]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00160000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00160000.pt
+Complete.
+validation run complete at 160,000 steps. validation mel spec error: 0.6956
+Time taken for epoch 24 is 2020 sec
+
+Epoch: 25
+Time taken for epoch 25 is 2308 sec
+
+Epoch: 26
+Steps : 170,000, Gen Loss Total : 37.782, Mel-Spec. Error : 0.565, sec/batch : 0.280, peak mem:  3.24GB3]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00170000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00170000.pt
+Complete.
+validation run complete at 170,000 steps. validation mel spec error: 0.6982
+Time taken for epoch 26 is 2013 sec
+
+Epoch: 27
+Steps : 180,000, Gen Loss Total : 40.001, Mel-Spec. Error : 0.631, sec/batch : 0.281, peak mem:  3.24GB:07]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00180000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00180000.pt
+Complete.
+validation run complete at 180,000 steps. validation mel spec error: 0.6996
+Time taken for epoch 27 is 2434 sec
+
+Epoch: 28
+Time taken for epoch 28 is 1887 sec
+
+Epoch: 29
+Steps : 190,000, Gen Loss Total : 39.441, Mel-Spec. Error : 0.606, sec/batch : 0.279, peak mem:  3.24GB]]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00190000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00190000.pt
+Complete.
+validation run complete at 190,000 steps. validation mel spec error: 0.7050
+Time taken for epoch 29 is 2460 sec
+
+Epoch: 30
+Steps : 200,000, Gen Loss Total : 44.369, Mel-Spec. Error : 0.672, sec/batch : 0.282, peak mem:  3.24GB:11]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00200000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00200000.pt
+Complete.
+validation run complete at 200,000 steps. validation mel spec error: 0.6921
+Time taken for epoch 30 is 2027 sec
+
+Epoch: 31
+Steps : 210,000, Gen Loss Total : 39.677, Mel-Spec. Error : 0.597, sec/batch : 0.282, peak mem:  3.25GB:35]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00210000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00210000.pt
+Complete.
+validation run complete at 210,000 steps. validation mel spec error: 0.7052
+Time taken for epoch 31 is 2487 sec
+
+Epoch: 32
+Time taken for epoch 32 is 1890 sec
+
+Epoch: 33
+Steps : 220,000, Gen Loss Total : 34.507, Mel-Spec. Error : 0.488, sec/batch : 0.280, peak mem:  3.24GB:57]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00220000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00220000.pt
+Complete.
+validation run complete at 220,000 steps. validation mel spec error: 0.6962
+Time taken for epoch 33 is 2460 sec
+
+Epoch: 34
+Steps : 230,000, Gen Loss Total : 34.773, Mel-Spec. Error : 0.528, sec/batch : 0.281, peak mem:  3.24GB:53]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00230000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00230000.pt
+Complete.
+validation run complete at 230,000 steps. validation mel spec error: 0.6992
+Time taken for epoch 34 is 2030 sec
+
+Epoch: 35
+Time taken for epoch 35 is 2342 sec
+
+Epoch: 36
+Steps : 240,000, Gen Loss Total : 42.650, Mel-Spec. Error : 0.629, sec/batch : 0.283, peak mem:  3.24GB:26]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00240000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00240000.pt
+Complete.
+validation run complete at 240,000 steps. validation mel spec error: 0.7007
+Time taken for epoch 36 is 2038 sec
+
+Epoch: 37
+Steps : 250,000, Gen Loss Total : 42.797, Mel-Spec. Error : 0.665, sec/batch : 0.282, peak mem:  3.24GB:32]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00250000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00250000.pt
+Complete.
+validation run complete at 250,000 steps. validation mel spec error: 0.7016
+Time taken for epoch 37 is 2434 sec
+
+Epoch: 38
+Time taken for epoch 38 is 1891 sec
+
+Epoch: 39
+Steps : 260,000, Gen Loss Total : 41.849, Mel-Spec. Error : 0.649, sec/batch : 0.279, peak mem:  3.25GB:01]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00260000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00260000.pt
+Complete.
+validation run complete at 260,000 steps. validation mel spec error: 0.6983
+Time taken for epoch 39 is 2438 sec
+
+Epoch: 40
+Steps : 270,000, Gen Loss Total : 41.963, Mel-Spec. Error : 0.676, sec/batch : 0.282, peak mem:  3.24GB:06]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00270000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00270000.pt
+Complete.
+validation run complete at 270,000 steps. validation mel spec error: 0.6906
+Time taken for epoch 40 is 2021 sec
+
+Epoch: 41
+Time taken for epoch 41 is 2285 sec
+
+Epoch: 42
+Steps : 280,000, Gen Loss Total : 38.070, Mel-Spec. Error : 0.590, sec/batch : 0.280, peak mem:  3.24GB:38]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00280000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00280000.pt
+Complete.
+validation run complete at 280,000 steps. validation mel spec error: 0.6902
+Time taken for epoch 42 is 2021 sec
+
+Epoch: 43
+Steps : 290,000, Gen Loss Total : 48.881, Mel-Spec. Error : 0.754, sec/batch : 0.281, peak mem:  3.24GB:35]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00290000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00290000.pt
+Complete.
+validation run complete at 290,000 steps. validation mel spec error: 0.6904
+Time taken for epoch 43 is 2432 sec
+
+Epoch: 44
+Time taken for epoch 44 is 1886 sec
+
+Epoch: 45
+Steps : 300,000, Gen Loss Total : 44.300, Mel-Spec. Error : 0.678, sec/batch : 0.280, peak mem:  3.24GB:11]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00300000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00300000.pt
+Complete.
+validation run complete at 300,000 steps. validation mel spec error: 0.6910
+Time taken for epoch 45 is 2479 sec
+
+Epoch: 46
+Steps : 310,000, Gen Loss Total : 37.800, Mel-Spec. Error : 0.500, sec/batch : 0.281, peak mem:  3.24GB:19]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00310000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00310000.pt
+Complete.
+validation run complete at 310,000 steps. validation mel spec error: 0.6921
+Time taken for epoch 46 is 2021 sec
+
+Epoch: 47
+Time taken for epoch 47 is 2350 sec
+
+Epoch: 48
+Steps : 320,000, Gen Loss Total : 37.221, Mel-Spec. Error : 0.546, sec/batch : 0.282, peak mem:  3.24GB:52]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00320000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00320000.pt
+Complete.
+validation run complete at 320,000 steps. validation mel spec error: 0.7060
+Time taken for epoch 48 is 2020 sec
+
+Epoch: 49
+Steps : 330,000, Gen Loss Total : 44.987, Mel-Spec. Error : 0.657, sec/batch : 0.280, peak mem:  3.25GB:38]
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/g_00330000.pt
+Complete.
+Saving checkpoint to D:\testingstuff\checkpoints\prematched/do_00330000.pt
+Complete.
+validation run complete at 330,000 steps. validation mel spec error: 0.6866
+Time taken for epoch 49 is 2428 sec
+
+Epoch: 50
+Time taken for epoch 50 is 1887 sec
+
+PS C:\Users\reaso\PycharmProjects\TestOriginalUrythmic\uborka\knn-vc-master>
